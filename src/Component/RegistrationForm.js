@@ -15,7 +15,8 @@ const RegistrationForm = () => {
         email: '',
         phoneNumber: '',
         password: '',
-        confirmPassword:''
+        confirmPassword:'',
+        reset:""
     }
     const validationSchema = Yup.object().shape({
         name: Yup.string().min(3, "It's too short").required("Required"),

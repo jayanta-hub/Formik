@@ -2,6 +2,7 @@ import React from 'react'
 import { Grid, Paper, Button, Typography } from '@material-ui/core'
 import { TextField } from '@material-ui/core'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
+
 import * as Yup from 'yup'
 
 const RegistrationForm = () => {
